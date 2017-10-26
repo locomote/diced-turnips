@@ -28,7 +28,7 @@ Gem::Specification.new do |spec|
 
   spec.required_ruby_version = ">= 2.2"
 
-  spec.add_runtime_dependency "parallel_tests", "~> 2.5.0"
+  spec.add_runtime_dependency "parallel_tests", "~> 2.17.0"
   spec.add_runtime_dependency "rspec",          "~> 3.3", "~> 3.3"
 
   spec.add_development_dependency "bundler", "~> 1.11"
