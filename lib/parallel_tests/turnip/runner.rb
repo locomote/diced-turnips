@@ -12,7 +12,7 @@ module ParallelTests
         end
 
         def run_tests(test_files, process_number, num_processes, options)
-          cmd = [ executable, options[:test_options], rspec_2_color, *test_files ].compact.reject(&:empty?).join(" ")
+          cmd = [ executable, options[:test_options], color, *test_files ].compact.reject(&:empty?).join(" ")
           execute_command(cmd, process_number, num_processes, options)
         end
 
